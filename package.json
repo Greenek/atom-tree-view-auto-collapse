@@ -1,7 +1,7 @@
 {
   "name": "tree-view-auto-collapse",
   "main": "./lib/tree-view-auto-collapse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helps to keep the tree view clean and clear by collapsing currently unused entries.",
   "author": "Paweł Golonko <pgolonko@gmail.com> (http://greenek.com/)",
   "keywords": [
