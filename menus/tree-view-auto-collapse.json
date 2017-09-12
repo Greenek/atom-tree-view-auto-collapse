@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    ".tree-view .full-menu": [
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Auto-Collapse",
+        "command": "tree-view-auto-collapse:clean-up"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Tree View",
+          "submenu": [
+            { "type": "separator" },
+            {
+              "label": "Auto-Collapse",
+              "command": "tree-view-auto-collapse:clean-up"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

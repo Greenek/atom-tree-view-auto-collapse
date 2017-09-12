@@ -1,0 +1,48 @@
+{
+  "name": "tree-view-auto-collapse",
+  "main": "./lib/tree-view-auto-collapse",
+  "version": "0.1.0",
+  "description":
+    "Helps to keep the tree view clean and clear by collapsing currently unused entries. ",
+  "author": "Paweł Golonko <pgolonko@gmail.com> (http://greenek.com/)",
+  "keywords": ["file-list", "tree-view"],
+  "repository": "https://github.com/Greenek/atom-tree-view-auto-collapse",
+  "homepage": "https://github.com/Greenek/atom-tree-view-auto-collapse",
+  "bugs": {
+    "url": "https://github.com/Greenek/atom-tree-view-auto-collapse/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.18.0 <2.0.0"
+  },
+  "configSchema": {
+    "keepExpanded": {
+      "title": "Keep Expanded",
+      "description":
+        "List of glob patterns. Directories matching these patterns will be prevented from auto-collapsing.",
+      "type": "array",
+      "default": [],
+      "order": 2
+    },
+    "triggerOnTextEditorClose": {
+      "title": "Auto-Collapse on Editor Tab Closing",
+      "description": "Perform auto-collapse after closing a text editor tab.",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    }
+  },
+  "dependencies": {
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "prettier": "^1.6.1",
+    "prettier-eslint": "^8.0.0"
+  }
+}
