@@ -3,7 +3,7 @@
   "main": "./lib/tree-view-auto-collapse",
   "version": "0.1.0",
   "description":
-    "Helps to keep the tree view clean and clear by collapsing currently unused entries. ",
+    "Helps to keep the tree view clean and clear by collapsing currently unused entries.",
   "author": "Paweł Golonko <pgolonko@gmail.com> (http://greenek.com/)",
   "keywords": ["file-list", "tree-view"],
   "repository": "https://github.com/Greenek/atom-tree-view-auto-collapse",
