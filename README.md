@@ -1,5 +1,12 @@
 # Tree View Auto-Collapse
 
+[![GitHub Stars][stars-badge]]()
+
+[![Version][version-badge]][package]
+[![Downloads][downloads-badge]][package]
+[![GitHub issues][issues-badge]][issues]
+[![MIT License][license-badge]][license]
+
 Helps to keep the tree view clean and clear by collapsing currently unused entries. 
 
 ## Installation
@@ -45,7 +52,14 @@ Please refer to each project's style guidelines and guidelines for submitting pa
 
 [MIT](./LICENSE.md)
 
+[downloads-badge]: https://img.shields.io/apm/dm/tree-view-auto-collapse.svg
 [greenek]: https://github.com/Greenek
 [issues]: https://github.com/Greenek/atom-tree-view-auto-collapse/issues/
+[issues-badge]: https://img.shields.io/github/issues/Greenek/atom-tree-view-auto-collapse.svg
 [issues-new]: https://github.com/Greenek/atom-tree-view-auto-collapse/issues/new
+[license]: ./LICENSE.md
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[package]: https://atom.io/packages/tree-view-auto-collapse
 [pr-new]: https://github.com/Greenek/atom-tree-view-auto-collapse/compare
+[stars-badge]: https://img.shields.io/github/stars/greenek/atom-tree-view-auto-collapse.svg?style=social&label=Star
+[version-badge]: https://img.shields.io/apm/v/tree-view-auto-collapse.svg
