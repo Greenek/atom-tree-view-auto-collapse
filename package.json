@@ -1,11 +1,13 @@
 {
   "name": "tree-view-auto-collapse",
   "main": "./lib/tree-view-auto-collapse",
-  "version": "0.1.0",
-  "description":
-    "Helps to keep the tree view clean and clear by collapsing currently unused entries.",
+  "version": "1.0.0",
+  "description": "Helps to keep the tree view clean and clear by collapsing currently unused entries.",
   "author": "Paweł Golonko <pgolonko@gmail.com> (http://greenek.com/)",
-  "keywords": ["file-list", "tree-view"],
+  "keywords": [
+    "file-list",
+    "tree-view"
+  ],
   "repository": "https://github.com/Greenek/atom-tree-view-auto-collapse",
   "homepage": "https://github.com/Greenek/atom-tree-view-auto-collapse",
   "bugs": {
@@ -18,8 +20,7 @@
   "configSchema": {
     "keepExpanded": {
       "title": "Keep Expanded",
-      "description":
-        "List of glob patterns. Directories matching these patterns will be prevented from auto-collapsing.",
+      "description": "List of glob patterns. Directories matching these patterns will be prevented from auto-collapsing.",
       "type": "array",
       "default": [],
       "order": 2
